@@ -1,4 +1,3 @@
-from pprint import pprint
 from itertools import compress
 
 class Generator:
