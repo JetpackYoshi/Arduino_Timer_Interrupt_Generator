@@ -1,0 +1,20 @@
+<script type="module">import * as app from './__target__/app.js'; window.app = app;</script>
+<h2>App demo</h2>
+
+<p>
+<button onclick="app.codeGenerator.generate ()">Click me repeatedly!</button>
+<form>
+  Interrupt Frequency: <input type="number" name="frequency" id="freq" min="0"><br>
+  <input type="button" onclick="app.codeGenerator.selectFreq ()" value="OK">
+</form>
+<select id="mySelect">
+  <option>Apple</option>
+  <option>Orange</option>
+  <option>Pineapple</option>
+  <option>Banana</option>
+</select>
+<pre>
+  <code id = "output">
+    ...
+  </code>
+</pre>
